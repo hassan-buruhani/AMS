@@ -1,0 +1,36 @@
+/* TroubleshootingAssets.css */
+.troubleshooting-assets-container {
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .assets-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .assets-table th, .assets-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+  }
+  
+  .assets-table th {
+    background-color: #3498db;
+  }
+  
+  .assets-table td {
+    text-align: center;
+  }
+  

@@ -1,0 +1,34 @@
+.asset-type-container {
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.asset-type-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.asset-type-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.asset-type-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.asset-type-card:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+  cursor: pointer;
+}

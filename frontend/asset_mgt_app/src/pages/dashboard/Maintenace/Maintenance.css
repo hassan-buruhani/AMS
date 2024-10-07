@@ -1,0 +1,9 @@
+/* Maintenance.css */
+.thead-dark {
+  background-color: #007bff; /* Blue color */
+  color: white; /* Text color for better contrast */
+}
+
+.table th {
+  text-align: center; /* Center align table headers if needed */
+}

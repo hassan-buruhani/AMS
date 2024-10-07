@@ -1,0 +1,124 @@
+/* Container styles */
+.asset-list-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Search bar styling */
+.search-bar {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Table Wrapper for scrollability */
+.table-wrapper {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Table styles */
+.maintenance-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.maintenance-table th, .maintenance-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.maintenance-table thead {
+  background-color: #3498db;
+  color: white;
+}
+
+.maintenance-table tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.maintenance-table tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.maintenance-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Icon styles */
+.icon {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.icon.edit-icon {
+  color: #2ecc71;
+}
+
+.icon.delete-icon {
+  color: #e74c3c;
+}
+
+/* View image button */
+.view-image-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.view-image-btn svg {
+  margin-right: 5px;
+}
+
+.view-image-btn:hover {
+  background-color: #2980b9;
+}
+
+/* Modal styles */
+.asset-image-modal {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.close-modal-btn {
+  background-color: #e74c3c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.close-modal-btn:hover {
+  background-color: #c0392b;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 10px;
+  }
+
+  .maintenance-table th, .maintenance-table td {
+    padding: 8px 10px;
+  }
+
+  .search-bar {
+    width: 100%;
+    max-width: none;
+  }
+}
